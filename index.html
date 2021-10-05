@@ -49,14 +49,12 @@ function draw_kb()
 		ctx.strokeRect(i * w_key_width, 0, w_key_width, w_key_height);
 		
 		ctx.fillStyle = '#f00';
-		ctx.fillText(w_note_d[i % w_note_d.length], i * w_key_width + 20, w_key_height - 20);
 		ctx.fillStyle = '#000';
 		
 		if(j != 3 && j != 6)
 		{
 			ctx.fillRect(i * w_key_width - b_key_width / 2, 0, b_key_width, b_key_height);
 			ctx.fillStyle = '#f00';
-			ctx.fillText(b_note_d[k++ % b_note_d.length], i * w_key_width - 5, b_key_height - 20);
 			ctx.fillStyle = '#000';
 		}
 		if(j > 6)
