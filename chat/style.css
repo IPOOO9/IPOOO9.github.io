@@ -18,6 +18,23 @@ body{
 .button:active{
     background: snow;
 }
+.button1{
+    background:	#DA70D6;
+    padding: 9px 10px;
+    border:1px solid #FFD700;
+    width: 20%;
+    position: relative right;
+    font-family: "Calibri";
+    font-size: 16px;
+    color: #1c1d1f;
+}
+.button1:hover{
+    background: #FA8072;
+}
+.button1:active{
+    background: snow;
+}
+
 
 .msg_cloud {
     max-height: 100%;
