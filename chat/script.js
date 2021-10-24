@@ -1,4 +1,4 @@
-function FadeLine()
+function fadeLine()
 {
     document.getElementById("in").focus();
 }
@@ -33,8 +33,6 @@ addEventListener('keydown', function(key) {
 document.addEventListener("DOMContentLoaded", function() {
     download();
 })
-
-}
 function download(){
     for(let i = 1; i<=localStorage.getItem('count');i++){
         let MessageText = document.createTextNode(localStorage.getItem(i));
