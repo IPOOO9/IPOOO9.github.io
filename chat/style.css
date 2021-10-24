@@ -2,7 +2,7 @@ body{
     background: rgb(65, 105, 225);
 }
 
-.in{
+.txtin{
     border:1px solid #1c1d1f;
     border-radius: 10px;
     width: 50%;
@@ -13,11 +13,11 @@ body{
     font-size: 16px;
 }
 
-.in:focus {
+.txtin:focus {
     outline: none;
 }
 
-.form{
+.frame{
     padding: 2%;
     width: 50%;
     margin-top: 1.5vh;
@@ -43,12 +43,12 @@ body{
     background: snow;
 }
 
-.container_messages {
+.msg_cloud {
     max-height: 100%;
     overflow-y: auto;
 }
 
-.messages{
+.msg_window{
     border-radius: 10px;
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
@@ -61,12 +61,12 @@ body{
     justify-content: flex-end;
     word-break:break-all;
 }
-.message{
+.msg{
     width: fit-content;
     margin: 1.5%;
     background-color: LawnGreen;
     border-radius: 10px;
-    padding: 5px 12px 8px 12px;
+    padding: 6px 10px 6px 10px;
     font-family: "Calibri";
     font-size: 16px;
     opacity: 95%;
