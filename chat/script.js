@@ -7,18 +7,18 @@ if(localStorage.length>0){
 } else {
     count = 0
 }
-function ShowMessage(){
+function MessageOnScreen(){
     let TextHolder = document.getElementById('in')
     let MessageText = document.createTextNode(TextHolder.value)
     if(MessageText.textContent.length>0){
-        showRealMessage(MessageText)
+        ShowMessageText(MessageText)
         count++
         localStorage.setItem('count', count)
         localStorage.setItem(count, MessageText.textContent)
         TextHolder.value=''
     }
 }
-function showRealMessage(text){
+function ShowMessageText(text){
     let messagebox=document.getElementById('messages')
     let message = document.createElement("div")
     message.className="message"
@@ -28,7 +28,7 @@ function showRealMessage(text){
 }
 addEventListener('keydown', function(key) {
     if (key.keyCode == 13)
-        ShowMessage();
+        MessageOnScreen();
 })
 document.addEventListener("DOMContentLoaded", function() {
     download();
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function download(){
     for(let i = 1; i<=localStorage.getItem('count');i++){
         let MessageText = document.createTextNode(localStorage.getItem(i));
-        showRealMessage(MessageText)
+        ShowMessageText(MessageText)
     }
 }
 
