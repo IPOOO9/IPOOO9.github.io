@@ -53,7 +53,7 @@ body{
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 90%;
+    min-width: 50%;
     height: 80vh;
     margin-bottom: 2vh;
     display: flex;
