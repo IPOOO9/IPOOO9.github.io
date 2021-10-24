@@ -6,17 +6,17 @@
 </head>
 <body onload="FadeLine()">
 <script src="script.js"></script>
-<div class="form" id="form">
+<div class="frame" id="frame">
 
-  <div class="messages">
-    <div class="container_messages">
-    <div id="messages"></div>
-    <div class="wrapper_ScrollBottom"></div>
+  <div class="msg_window">
+    <div class="msg_cloud">
+    <div id="msg_window"></div>
+    <div class="Scrolling"></div>
     </div>
   </div>
 
-  <input type="text" placeholder="Ввод сообщения" class="in" id="in">
-  <input class="button" value="Отправить" onclick="ShowMessage()" type="button">
+  <input type="text" placeholder="Ввод сообщения" class="txtin" id="txtin">
+  <input class="button" value="Отправить" onclick="MessageOnScreen()" type="button">
 </div>
 
 </body>
