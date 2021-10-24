@@ -7,7 +7,7 @@ if(localStorage.length>0){
 } else {
     count = 0
 }
-function ShowMessage(){
+function MessageOnScreen(){
     let TextHolder = document.getElementById('in')
     let MessageText = document.createTextNode(TextHolder.value)
     if(MessageText.textContent.length>0){
@@ -24,7 +24,6 @@ function showRealMessage(text){
     message.className="message"
     message.append(text)
     messagebox.append(message)
-    lastMessageScroll()
 }
 addEventListener('keydown', function(key) {
     if (key.keyCode == 13)
@@ -42,12 +41,4 @@ function download(){
     }
 }
 
-function lastMessageScroll(b) {
-    var e = document.querySelector('.wrapper_ScrollBottom');
-    if (!e) return;
-
-    e.scrollIntoView({
-        behavior: b || 'auto',
-        block: 'end',
-    });
 }
