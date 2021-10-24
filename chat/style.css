@@ -24,13 +24,13 @@ body{
     margin-left: 25%;
     min-height: 85vh;
     background-color: LawnGreen;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .button{
-    background: #19c88f;
+    background: #9400D3;
     border-radius: 20px;
     padding: 9px 10px;
-    border:1px solid #1c1d1f;
+    border:1px solid #FFD700;
     width: 25.3%;
     position: relative;
     font-family: "Calibri";
@@ -70,7 +70,7 @@ body{
     padding: 5px 12px 8px 12px;
     font-family: "Calibri";
     font-size: 16px;
-    opacity: 93%;
+    opacity: 95%;
 }
 
 ::-webkit-scrollbar
