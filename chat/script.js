@@ -50,4 +50,8 @@ function msg_scroll(b) {
     });
 }
 
-
+function soundClick() {
+  var audio = new Audio(); 
+  audio.src = '!!!.mp3'; 
+  audio.autoplay = true; 
+}
