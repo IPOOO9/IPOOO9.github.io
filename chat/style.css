@@ -2,7 +2,7 @@ body{
     background: rgb(65, 105, 225);
 }
 
-.txtin{
+.in{
     border:1px solid #1c1d1f;
     border-radius: 10px;
     width: 50%;
@@ -13,11 +13,11 @@ body{
     font-size: 16px;
 }
 
-.txtin:focus {
+.in:focus {
     outline: none;
 }
 
-.frame{
+.form{
     padding: 2%;
     width: 50%;
     margin-top: 1.5vh;
