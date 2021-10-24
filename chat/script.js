@@ -1,6 +1,6 @@
 function FadeLine()
 {
-    document.getElementById("txtin").focus();
+    document.getElementById("in").focus();
 }
 if(localStorage.length>0){
     count = localStorage.getItem('count')
@@ -8,7 +8,7 @@ if(localStorage.length>0){
     count = 0
 }
 function MessageOnScreen(){
-    let TextHolder = document.getElementById('txtin')
+    let TextHolder = document.getElementById('in')
     let MessageText = document.createTextNode(TextHolder.value)
     if(MessageText.textContent.length>0){
         ShowMessageText(MessageText)
