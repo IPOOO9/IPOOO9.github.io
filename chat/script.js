@@ -1,4 +1,4 @@
-function fadeLine()
+function FadeLine()
 {
     document.getElementById("in").focus();
 }
