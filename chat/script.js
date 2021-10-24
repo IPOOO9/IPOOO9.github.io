@@ -1,6 +1,6 @@
 function FadeLine()
 {
-    document.getElementById("in").focus();
+    document.getElementById("txtin").focus();
 }
 if(localStorage.length>0){
     count = localStorage.getItem('count')
@@ -8,7 +8,7 @@ if(localStorage.length>0){
     count = 0
 }
 function MessageOnScreen(){
-    let TextHolder = document.getElementById('in')
+    let TextHolder = document.getElementById('txtin')
     let MessageText = document.createTextNode(TextHolder.value)
     if(MessageText.textContent.length>0){
         ShowMessageText(MessageText)
@@ -19,12 +19,12 @@ function MessageOnScreen(){
     }
 }
 function ShowMessageText(text){
-    let messagebox=document.getElementById('messages')
+    let messagebox=document.getElementById('msg_window')
     let message = document.createElement("div")
-    message.className="message"
+    message.className="msg"
     message.append(text)
     messagebox.append(message)
-    lastMessageScroll()
+    msg_scroll()
 }
 addEventListener('keydown', function(key) {
     if (key.keyCode == 13)
@@ -40,8 +40,8 @@ function download(){
     }
 }
 
-function lastMessageScroll(b) {
-    var e = document.querySelector('.wrapper_ScrollBottom');
+function msg_scroll(b) {
+    var e = document.querySelector('.Scrolling');
     if (!e) return;
 
     e.scrollIntoView({
