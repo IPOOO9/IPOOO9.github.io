@@ -35,6 +35,12 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 }
+function download(){
+    for(let i = 1; i<=localStorage.getItem('count');i++){
+        let MessageText = document.createTextNode(localStorage.getItem(i));
+        showRealMessage(MessageText)
+    }
+}
 
 function lastMessageScroll(b) {
     var e = document.querySelector('.wrapper_ScrollBottom');
