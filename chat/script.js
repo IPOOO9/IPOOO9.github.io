@@ -29,6 +29,8 @@ function showRealMessage(text){
 addEventListener('keydown', function(key) {
     if (key.keyCode == 13)
         ShowMessage();
+    if (key.keyCode == 16)
+        document.myForm.reset();
 })
 document.addEventListener("DOMContentLoaded", function() {
     download();
