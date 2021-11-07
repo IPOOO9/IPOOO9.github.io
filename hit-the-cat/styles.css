@@ -5,7 +5,7 @@ body{
     overflow: hidden;
     height: 100px;
     width: 100px;
-    border: 1px solid #a121ff;
+    border: 2px solid #ADFF2F;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
@@ -30,12 +30,21 @@ body{
 }
 .score{
     color: #11cece;
-    margin-left: calc((100% - 340px)/2);
+    margin-left: calc((100% - 240px)/2);
     margin-top: 10px;
     font-size: 45px;
     font-style: oblique;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #398d89;
+    -webkit-text-stroke-color: #000080;
+}
+.scorefinal{
+    color: #11cece;
+    margin-left: calc((100% - 340px)/2);
+    margin-top: 490px;
+    font-size: 45px;
+    font-style: oblique;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000080;
 }
 .play{
     position: absolute;
@@ -45,10 +54,9 @@ body{
     border:none;
     margin-top: 10px;
     margin-left: calc((100% - 170px)/2);
-    font-family: 'Comfortaa', cursive;;
     font-style: oblique;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #398d89;
+    -webkit-text-stroke-color: #ADFF2F;
     font-size: 45px;
 }
 .play:hover{
@@ -63,10 +71,9 @@ body{
     border:none;
     margin-top: 10px;
     margin-left: calc((100% - 300px)/2);
-    font-family: 'Comfortaa', cursive;;
     font-style: oblique;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #398d89;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ADFF2F;
     font-size: 45px;
     visibility: hidden;
 }
