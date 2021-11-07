@@ -1,6 +1,7 @@
-.play-area{
+ background: url("back.jpg");
+.grid{
     position: absolute;
-    margin-right: auto;
+    margin-right: calc(100%-400)/2;
     margin-left: auto;
     width: 400px;
     height: 400px;
@@ -10,19 +11,17 @@
     background-color: white;
     width: 25%;
     height: 25%;
-    border-radius: 50%;
     box-shadow: black;
 }
 
 .active{
-    background-color: black;
+    background-image: url('cat.jpg');
     width: 25%;
     height: 25%;
-    border-radius: 50%;
     box-shadow: black;
 }
 
-.game-control{
+.game{
     width: 400px;
 }
 
