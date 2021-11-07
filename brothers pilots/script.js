@@ -1,11 +1,10 @@
-let score = 0;
-const scoreDoc = document.querySelector('.game-score');
+
 
 let width = 4;
 let height = 4;
 
-function initGame(width, height){
-    const playArea = document.querySelector('.play-area');
+function StartGame(width, height){
+    const grid = document.querySelector('.grid');
     scoreDoc.innerHTML = 'Score: ' + score.toString();
 
     for (let i = 0; i < width; i++){
@@ -20,8 +19,7 @@ function initGame(width, height){
     score = 0;
 }
 
-function newStep(){
-    scoreUpdate();
+function newTurn(){
 
     let x = this.id[0];
     let y = this.id[1];
@@ -48,7 +46,7 @@ function checkForWin(){
             }
         }
     }
-    alert('YOU WIN!');
+    alert('VICTORY! GURA~NYA');
     reloadGame();
 }
 
@@ -61,17 +59,12 @@ function paintCells(elem){
     }
 }
 
-function scoreUpdate(){
-    score++;
-    scoreDoc.innerHTML = 'Score: ' + score.toString();
-}
 
-function reloadGame(){
-
+function restart(){
+    let audio = new Audio('restart.ogg')
+    audio.play();
     const elems = document.querySelectorAll('button');
     elems.forEach(elem => elem.className='not-active');
-    score = 0;
-    scoreDoc.innerHTML = 'Score: ' + score.toString();
 }
 
-initGame(width, height);
+StartGame(width, height);
