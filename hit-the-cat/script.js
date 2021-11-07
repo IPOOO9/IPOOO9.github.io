@@ -10,7 +10,9 @@ const necoarc = document.querySelector('.necoarc');
 const score = document.querySelector('.score');
 const scoref = document.querySelector('.scorefinal');
 function onload(){
-    let score = document.getElementById('score')
+    let score = document.getElementById('score');
+    document.getElementById('scorefinal').style.visibility="hidden";
+    let scoref = document.getElementById('scorefinal');
 }
 if (mark===true){
     timerId=setInterval(spawn, 700);
@@ -59,6 +61,7 @@ function timer(){
         document.getElementById('c').style.visibility="hidden";
         clearInterval(sec);
         clearInterval(timerId);
+        document.getElementById('scorefinal').style.visibility="visible";
         scoref.innerHTML="Your final score:" + count;
         blocks.forEach(it=>
         {
