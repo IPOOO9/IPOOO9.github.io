@@ -1,4 +1,6 @@
- background: url("back.jpg");
+body {
+background: url("back.jpg");
+}
 .grid{
     position: absolute;
     margin-right: 200px;
