@@ -8,6 +8,7 @@ const timeLeft = document.querySelector('.time');
 const blocks = document.querySelectorAll('.sircle');
 const necoarc = document.querySelector('.necoarc');
 const score = document.querySelector('.score');
+const scoref = document.querySelector('.scorefinal');
 function onload(){
     let score = document.getElementById('score')
 }
@@ -58,7 +59,7 @@ function timer(){
         document.getElementById('c').style.visibility="hidden";
         clearInterval(sec);
         clearInterval(timerId);
-        score.innerHTML="Your final score:" + count;
+        scoref.innerHTML="Your final score:" + count;
         blocks.forEach(it=>
         {
             it.classList.remove('necoarc');
