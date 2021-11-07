@@ -37,15 +37,6 @@ body{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000080;
 }
-.scorefinal{
-    color: #11cece;
-    margin-left: calc((100% - 340px)/2);
-    margin-top: 490px;
-    font-size: 45px;
-    font-style: oblique;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000080;
-}
 .play{
     position: absolute;
     background: none;
