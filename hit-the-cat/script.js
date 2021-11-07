@@ -16,7 +16,7 @@ if (mark===true){
     timerId=setInterval(spawn, 700);
 }
 function Neco(){
-    let begin=new Audio('start.mp3');
+    let begin=new Audio('beg.mp3');
     begin.play();
     document.getElementById('button').hidden=true;
     document.getElementById('c').style.visibility="visible";
