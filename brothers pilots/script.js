@@ -13,7 +13,7 @@ function StartGame(width, height){
             button.className = 'not-active';
             button.id = i.toString() + j.toString();
             button.addEventListener('click', newTurn);
-            playArea.insertAdjacentElement('beforeend', button)
+            grid.insertAdjacentElement('beforeend', button)
         }
     }
     score = 0;
