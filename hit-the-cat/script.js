@@ -9,9 +9,9 @@ const blocks = document.querySelectorAll('.sircle');
 const necoarc = document.querySelector('.necoarc');
 const score = document.querySelector('.score');
 const scoref = document.querySelector('.scorefinal');
+document.getElementById('scorefinal').style.visibility="hidden";
 function onload(){
     let score = document.getElementById('score');
-    document.getElementById('scorefinal').style.visibility="hidden";
     let scoref = document.getElementById('scorefinal');
 }
 if (mark===true){
