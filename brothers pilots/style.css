@@ -3,8 +3,7 @@ background: url("back.jpg");
 }
 .grid{
     position: absolute;
-    margin-right: 200px;
-    margin-left: auto;
+    margin-left: calc(50%-400px);
     width: 400px;
     height: 400px;
 }
