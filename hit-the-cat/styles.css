@@ -7,8 +7,8 @@ body{
     width: 100px;
     border: 1px solid #a121ff;
     -moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     background-color: black;
 }
 .grid{
