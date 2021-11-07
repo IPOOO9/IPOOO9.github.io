@@ -1,7 +1,7 @@
  background: url("back.jpg");
 .grid{
     position: absolute;
-    margin-right: calc(100%-400)/2;
+    margin-right: 200px;
     margin-left: auto;
     width: 400px;
     height: 400px;
