@@ -15,10 +15,10 @@ function onload(){
 if (mark===true){
     timerId=setInterval(spawn, 700);
 }
-function fet(){
-    let begin=new Audio('sharingan.mp3');
+function Neco(){
+    let begin=new Audio('start.mp3');
     begin.play();
-    document.getElementById('fedor').hidden=true;
+    document.getElementById('button').hidden=true;
     document.getElementById('c').style.visibility="visible";
     mark=true;
     timeLeft.textContent = 'Time:'+time;
@@ -43,7 +43,7 @@ function spawn(){
             if (Number(it.id) == pos) {
                 count++;
                 it.classList.remove('necoarc');
-                let audio = new Audio('chidori.mp3')
+                let audio = new Audio('meow.mp3')
                 audio.play();
                 score.innerHTML="Score:"+count;
                 pos=null;
@@ -55,7 +55,7 @@ function timer(){
     time--;
     timeLeft.textContent = 'Time:'+time;
     if (time === 0) {
-        document.getElementById('fedor').hidden=false;
+        document.getElementById('button').hidden=false;
         document.getElementById('c').style.visibility="hidden";
         clearInterval(sec);
         clearInterval(timerId);
