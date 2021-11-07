@@ -6,13 +6,7 @@ body{
     height: 100px;
     width: 100px;
     border: 1px solid #a121ff;
-    background-color: black;
-}
-.sircle{
-    overflow: hidden;
-    height: 100px;
-    width: 100px;
-    border: 2px solid #a121ff;
+    border-radius: 50px;
     background-color: black;
 }
 .grid{
@@ -82,7 +76,7 @@ body{
     height: 60px;
     width: 120px;
 }
-.naruto{
+.necoarc{
     height: 100px;
     width: 100px;
     border: 1px solid #a121ff;
