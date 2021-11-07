@@ -1,7 +1,7 @@
 body{
-    background: url("back.jpg");
+    background: url("background.jpg");
 }
-.square{
+.sircle{
     overflow: hidden;
     height: 100px;
     width: 100px;
@@ -33,7 +33,6 @@ body{
     margin-left: calc((100% - 340px)/2);
     margin-top: 10px;
     font-size: 45px;
-    font-family: 'Comfortaa', cursive;;
     font-style: oblique;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #398d89;
@@ -82,7 +81,7 @@ body{
     height: 100px;
     width: 100px;
     border: 1px solid #a121ff;
-    background-image: url('fet.gif');
+    background-image: url('Cat.gif');
     background-position-x: center;
     //background-size: cover;
 }
