@@ -27,7 +27,7 @@ function fet(){
 function spawn(){
     blocks.forEach(it=>
     {
-        it.classList.remove('naruto');
+        it.classList.remove('necoarc');
     })
     pos=Math.floor(Math.random() *16);
     blocks.forEach(it=> {
