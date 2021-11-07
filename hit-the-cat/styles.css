@@ -8,6 +8,13 @@ body{
     border: 1px solid #a121ff;
     background-color: black;
 }
+.sircle{
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #a121ff;
+    background-color: black;
+}
 .grid{
     position: absolute;
     margin-left: calc((100% - 490px)/2);
