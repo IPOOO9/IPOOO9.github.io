@@ -11,8 +11,8 @@ const score = document.querySelector('.score');
 const scoref = document.querySelector('.scorefinal');
 document.getElementById('.scorefinal').style.visibility="hidden";
 function onload(){
-    let score = document.getElementById('score');
-    let scoref = document.getElementById('scorefinal');
+    let score = document.getElementById('score')
+    let scoref = document.getElementById('scorefinal')
 }
 if (mark===true){
     timerId=setInterval(spawn, 700);
