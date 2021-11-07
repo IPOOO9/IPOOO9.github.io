@@ -5,8 +5,6 @@ let height = 4;
 
 function StartGame(width, height){
     const grid = document.querySelector('.grid');
-    scoreDoc.innerHTML = 'Score: ' + score.toString();
-
     for (let i = 0; i < width; i++){
         for (let j = 0; j < height; j++){
             const button = document.createElement('button');
