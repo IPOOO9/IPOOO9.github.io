@@ -1,0 +1,32 @@
+.play-area{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.not-active{
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    box-shadow: black;
+}
+
+.active{
+    background-color: black;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    box-shadow: black;
+}
+
+.game-control{
+    width: 400px;
+}
+
+.play-btn{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
