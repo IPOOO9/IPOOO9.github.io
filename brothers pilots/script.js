@@ -47,7 +47,7 @@ function checkForWin(){
         }
     }
     alert('VICTORY! GURA~NYA');
-    reloadGame();
+    restart();
 }
 
 function paintCells(elem){
