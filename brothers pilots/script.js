@@ -12,7 +12,7 @@ function StartGame(width, height){
             const button = document.createElement('button');
             button.className = 'not-active';
             button.id = i.toString() + j.toString();
-            button.addEventListener('click', newStep);
+            button.addEventListener('click', newTurn);
             playArea.insertAdjacentElement('beforeend', button)
         }
     }
