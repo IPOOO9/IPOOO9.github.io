@@ -30,7 +30,7 @@ body{
 }
 .score{
     color: #11cece;
-    margin-left: calc((100% - 240px)/2);
+    margin-left: calc((100% - 170px)/2);
     margin-top: 10px;
     font-size: 45px;
     font-style: oblique;
