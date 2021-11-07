@@ -61,7 +61,7 @@ function timer(){
         document.getElementById('c').style.visibility="hidden";
         clearInterval(sec);
         clearInterval(timerId);
-        document.getElementById('scorefinal').style.visibility="visible";
+        document.getElementById('.scorefinal').style.visibility="visible";
         scoref.innerHTML="Your final score:" + count;
         blocks.forEach(it=>
         {
