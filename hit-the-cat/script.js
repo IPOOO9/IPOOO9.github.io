@@ -6,7 +6,7 @@ let mark=false;
 let sec;
 const timeLeft = document.querySelector('.time');
 const blocks = document.querySelectorAll('.square');
-const naruto = document.querySelector('.naruto');
+const necoarc = document.querySelector('.necoarc');
 const score = document.querySelector('.score');
 function onload(){
     let score = document.getElementById('score')
@@ -32,7 +32,7 @@ function spawn(){
     pos=Math.floor(Math.random() *16);
     blocks.forEach(it=> {
         if(pos==it.id){
-            it.classList.add('naruto');
+            it.classList.add('necoarc');
         }
     })
     blocks.forEach(it=>
@@ -41,7 +41,7 @@ function spawn(){
             console.log(pos);
             if (Number(it.id) == pos) {
                 count++;
-                it.classList.remove('naruto');
+                it.classList.remove('necoarc');
                 let audio = new Audio('chidori.mp3')
                 audio.play();
                 score.innerHTML="Your score:"+count;
@@ -61,7 +61,7 @@ function timer(){
         alert('Your final score: ' + count);
         blocks.forEach(it=>
         {
-            it.classList.remove('naruto');
+            it.classList.remove('necoarc');
         })
         count=0;
         time=60;
