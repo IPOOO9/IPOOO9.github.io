@@ -87,7 +87,7 @@ body{
 .necoarc{
     height: 100px;
     width: 100px;
-    border: 1px solid #a121ff;
+    border: 3px solid #DC143C;
     background-image: url('Cat.gif');
     background-position-x: center;
     //background-size: cover;
