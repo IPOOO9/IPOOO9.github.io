@@ -5,7 +5,7 @@ let pos;
 let mark=false;
 let sec;
 const timeLeft = document.querySelector('.time');
-const blocks = document.querySelectorAll('.square');
+const blocks = document.querySelectorAll('.sircle');
 const necoarc = document.querySelector('.necoarc');
 const score = document.querySelector('.score');
 function onload(){
@@ -44,7 +44,7 @@ function spawn(){
                 it.classList.remove('necoarc');
                 let audio = new Audio('chidori.mp3')
                 audio.play();
-                score.innerHTML="Your score:"+count;
+                score.innerHTML="Score:"+count;
                 pos=null;
             }
         })
@@ -58,7 +58,7 @@ function timer(){
         document.getElementById('c').style.visibility="hidden";
         clearInterval(sec);
         clearInterval(timerId);
-        alert('Your final score: ' + count);
+        score.innerHTML="Your final score:" + count;
         blocks.forEach(it=>
         {
             it.classList.remove('necoarc');
@@ -66,7 +66,7 @@ function timer(){
         count=0;
         time=60;
         timeLeft.textContent = 'Time:'+time;
-        score.innerHTML="Your score:"+count;
+        score.innerHTML="Score:"+count;
         timerId=null;
     }
 }
