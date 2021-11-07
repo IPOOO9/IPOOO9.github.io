@@ -6,7 +6,9 @@ body{
     height: 100px;
     width: 100px;
     border: 1px solid #a121ff;
-    border-radius: 50px;
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
     background-color: black;
 }
 .grid{
