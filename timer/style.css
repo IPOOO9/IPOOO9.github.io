@@ -8,7 +8,13 @@ body {
     line-height: 1.6;
 }
 
-
+.info {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
 
 
 h3 {
