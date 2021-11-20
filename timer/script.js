@@ -8,7 +8,7 @@ start.addEventListener('click', TimerStart);
 
 
 function TimerStart() {
-    start.innerText = 'ПЕРЕЗАПУСТИТЬ';
+    start.innerText = 'Перезапуск';
     document.getElementById("img").hidden=true;
     document.getElementById("end").hidden=true;
 
