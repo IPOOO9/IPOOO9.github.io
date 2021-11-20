@@ -9,7 +9,6 @@ start.addEventListener('click', TimerStart);
 
 function TimerStart() {
     start.innerText = 'Перезапуск';
-    document.getElementById("img").hidden=true;
     document.getElementById("end").hidden=true;
 
     minute = 1;
