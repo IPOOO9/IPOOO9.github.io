@@ -19,4 +19,24 @@ h2{
 h3 {
     font-size: 25px;
 }
+.score{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin: auto 20px;
+}
 
+.end {
+    text-align: center;
+    margin: 15px;
+}
+
+.start {
+    padding: 8px;
+    color: #FFFF;
+    background: #4C4C4C;
+    margin: auto 20px;
+    font-size: 20px;
+    letter-spacing: 0.1em; /* отступ между символами */
+}
