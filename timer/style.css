@@ -30,8 +30,8 @@ h3 {
 .start {
     padding: 8px;
     color: #FFFF;
-    background: #4C4C4C;
+    background: #000080;
     margin: auto 20px;
+    margin-left:40%
     font-size: 20px;
-    letter-spacing: 0.1em; /* отступ между символами */
 }
