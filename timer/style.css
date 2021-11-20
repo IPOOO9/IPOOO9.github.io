@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     overflow: hidden;
-    background-color: bisque;
+    background-color: DeepPink;
 }
 
 a {
@@ -19,15 +19,6 @@ a {
     padding: 12px 20px;
 }
 
-.mainMenu{
-    display: flex;
-    justify-content: center;
-    background-color: #FFD7A7;
-    margin: 15px;
-    position: center;
-    align-items: center;
-    border-radius: 6px;
-}
 
 .wrapper{
     height: 50%;
@@ -41,7 +32,7 @@ a {
 
 .wrapperTimer{
     display: flex;
-    background-color: lightsalmon;
+    background-color: LawnGreen;
     position: center;
     width: auto;
     height: auto;
@@ -52,7 +43,7 @@ a {
     border: 2px solid #9B4222;
     border-radius: 5px;
     display: flex;
-    background-color: lightsalmon;
+    background-color: LawnGreen;
     color: bisque;
     font-size: 40px;
 }
@@ -65,10 +56,10 @@ a {
 }
 
 .eventButton{
-    border: 1px solid #9B4222;
+    border: 1px solid #008000;
     padding: 5px 8px;
     color: #9B4222;
-    background-color: blanchedalmond;
+    background-color: RoyalBlue;
     border-radius: 5px;
     margin: 0 5px;
     display: flex;
