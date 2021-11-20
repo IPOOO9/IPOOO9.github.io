@@ -1,6 +1,6 @@
 let maxMinutes = 60, maxSeconds = 60;
-let currenTime = new Date(0, 0, 0, 0, 1, 0);
-let startTime = new Date(0, 0, 0, 0, 0, 0);
+let currenTime = new Date( 1, 0);
+let startTime = new Date(0, 0);
 
 async function Starter(){
     const promise = new Promise((resolve, reject) => {
