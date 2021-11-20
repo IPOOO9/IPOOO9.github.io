@@ -43,15 +43,6 @@ function TimerStart() {
             }
         }, 84);
     });
-
-    promise.then(function () {
-        let Object1 = document.createElement('div');
-        Object1.className="gallery-top";
-        document.getElementById("img").hidden=false;
-        let Object2 = document.createElement('div');
-        Object2.className="end";
-        document.getElementById("end").hidden=false;
-    });
 }
 
 
