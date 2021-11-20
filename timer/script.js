@@ -4,7 +4,7 @@ let startTime = new Date(0, 0);
 
 async function Starter(){
     const promise = new Promise((resolve, reject) => {
-        if(currenTime > new Date(0, 0, 0, 0, 0, 0)){
+        if(currenTime > new Date( 0, 0)){
             currenTime.setSeconds(currenTime.getSeconds() - 1);
             timeout = setTimeout(Starter, 1000);
             document.getElementById('startButton').disabled = true;
