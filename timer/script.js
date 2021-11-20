@@ -1,8 +1,8 @@
-let maxHours = 2, maxMinutes = 60, maxSeconds = 60;
+let maxMinutes = 60, maxSeconds = 60;
 let currenTime = new Date(0, 0, 0, 0, 1, 0);
 let startTime = new Date(0, 0, 0, 0, 0, 0);
 
-async function onStartTimer(){
+async function Starter(){
     const promise = new Promise((resolve, reject) => {
         if(currenTime > new Date(0, 0, 0, 0, 0, 0)){
             currenTime.setSeconds(currenTime.getSeconds() - 1);
@@ -21,16 +21,14 @@ async function onStartTimer(){
         document.getElementById('startButton').style.backgroundColor = '#ffebcd';
         document.getElementById('generateButton').disabled = false;
         document.getElementById('generateButton').style.backgroundColor = '#ffebcd';
-        alert('Время ушло, надеюсь, не просто так;)');
+        alert('Это конец...Или новое начало?');
     })
 }
 
-function onGenerateTime(){
-    let randomHour = Math.floor(Math.random() * maxHours);
+function RandomTime(){
     let randomMinute = Math.floor(Math.random() * maxMinutes);
     let randomSecond = Math.floor(Math.random() * maxSeconds);
 
-    currenTime.setHours(randomHour);
     currenTime.setMinutes(randomMinute);
     currenTime.setSeconds(randomSecond);
 
