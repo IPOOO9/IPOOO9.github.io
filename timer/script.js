@@ -43,6 +43,11 @@ function TimerStart() {
             }
         }, 84);
     });
+       promise.then(function () {
+        let Object1 = document.createElement('div');
+        Object1.className="end";
+        document.getElementById("end").hidden=false;
+    });
 }
 
 
