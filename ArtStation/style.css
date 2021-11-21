@@ -1,30 +1,9 @@
 body{
-    background: black;
+    background: MediumAquamarine;
     max-width: 1400px;
 
 }
 
-.AuthorMessage{
-    background-color: #da8c51;
-    padding: 15px;
-    max-width: 90%;
-    width: fit-content;
-
-    margin: 3%;
-    border-radius: 10px;
-
-    position: relative;
-    left: 723px;
-    top: -13px;
-}
-
-.CryStyle{
-    background-color: #f2cb2f;
-    position: relative;
-    bottom: 75px;
-    left: 25px;
-    padding: 5px;
-}
 
 .img{
     position: relative;
@@ -34,15 +13,14 @@ body{
 
 }
 
-.PicturesButton{
+.PicSpawnButton{
     padding: 10px;
     border-radius: 6px;
     font-size: 25px;
-    color: black;
+    color: GreenYellow;
     background-color: #dab32f;
     border-style: none;
-
-    position: relative;
+    position: center;
     left: 350px;
 }
 
