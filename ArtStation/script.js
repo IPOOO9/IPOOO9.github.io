@@ -1,6 +1,6 @@
 function SpawnImage() {
     document.getElementById("button").hidden=true;
-    fetch('art.json').then(response => {
+    fetch('pic.json').then(response => {
         response.json().then(result => {
             let arr = [result.second, result.first,result.fourth,result.third,result.fifth];
             for (let i = 0; i < 5; i++) {
