@@ -17,11 +17,11 @@ body{
     padding: 10px;
     border-radius: 6px;
     font-size: 25px;
-    color: GreenYellow;
-    background-color: #dab32f;
+    color: Black;
+    background-color: GreenYellow;
     border-style: none;
     position: center;
-    left: 350px;
+    margin-left: 350px;
 }
 
 
