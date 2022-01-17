@@ -1,0 +1,85 @@
+body{
+    background: url("background.jpg");
+}
+.sircle{
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #ADFF2F;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+.grid{
+    position: absolute;
+    margin-left: calc((100% - 490px)/2);
+    margin-top: 80px;
+}
+.line1{
+    display: inline-block;
+}
+.line2{
+    display: inline-block;
+}
+.line3 {
+    display: inline-block;
+}
+.line4{
+    display: inline-block;
+}
+.score{
+    color: #11cece;
+    margin-left: calc((100% - 160px)/2);
+    margin-top: 10px;
+    font-size: 45px;
+    font-style: oblique;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000080;
+}
+.play{
+    position: absolute;
+    background: none;
+    height: 60px;
+    width: 120px;
+    border:none;
+    margin-top: 10px;
+    margin-left: calc((100% - 170px)/2);
+    font-style: oblique;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ADFF2F;
+    font-size: 45px;
+}
+.play:hover{
+    color: #018f5b;
+    transition: 1s;
+}
+.time{
+    position: absolute;
+    background: none;
+    height: 80px;
+    width: 120px;
+    border:none;
+    margin-top: 10px;
+    margin-left: calc((100% - 300px)/2);
+    font-style: oblique;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ADFF2F;
+    font-size: 45px;
+    visibility: hidden;
+}
+#c{
+    position: absolute;
+    margin-left: calc((100% - 220px)/2);
+    visibility: hidden;
+    height: 60px;
+    width: 120px;
+}
+.necoarc{
+    height: 100px;
+    width: 100px;
+    border: 3px solid #DC143C;
+    background-image: url('Cat.gif');
+    background-position-x: center;
+    //background-size: cover;
+}

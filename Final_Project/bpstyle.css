@@ -1,0 +1,33 @@
+body {
+background: url("back.jpg");
+}
+.grid{
+    position: absolute;
+    margin-left: 20%;
+    width: 400px;
+    height: 400px;
+}
+
+.not-active{
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    box-shadow: black;
+}
+
+.active{
+    background-image: url('cat.jpg');
+    width: 25%;
+    height: 25%;
+    box-shadow: black;
+}
+
+.game{
+    width: 400px;
+}
+
+.rebutton{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left:80px;
+}
